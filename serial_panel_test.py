@@ -8,9 +8,14 @@ from pyqt_led.pyqt_led import Led # From https://github.com/Neur1n/pyqt_led
 from PyQt5.QtSerialPort import QSerialPortInfo, QSerialPort
 from PyQt5.QtCore import QThread, pyqtSignal
 
+<<<<<<< HEAD
 # import serial
 
 import serial.tools.list_ports
+=======
+import serial
+# import serial.tools.list_ports
+>>>>>>> ab14c7075409850e30c2227d74d8e77b7c79cace
 import time
 # 中文乱码问题
 class readThread(QThread):
@@ -49,6 +54,8 @@ class MyWindow(QtWidgets.QMainWindow,Ui_MainWindow):
         self._create_leds()
         self._arrange_leds()
         self.serial_flag = False
+        for i in range (1,21):
+            exec('self.serial_port.addItem("/dev/ttyS{0}")'.format(i))
 
     def serial_connect(self): # button
         if not self.serial_flag:
