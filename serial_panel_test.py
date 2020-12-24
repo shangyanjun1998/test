@@ -7,7 +7,7 @@ from pyqt_led.pyqt_led import Led # From https://github.com/Neur1n/pyqt_led
 
 from PyQt5.QtSerialPort import QSerialPortInfo, QSerialPort
 from PyQt5.QtCore import QThread, pyqtSignal
-
+# dddddddddjkj
 <<<<<<< HEAD
 # import serial
 
