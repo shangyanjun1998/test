@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-h44h4h4hh4
 
 # Form implementation generated from reading ui file 'serial_panel.ui'
 #
